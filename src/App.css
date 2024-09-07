@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.tab-list-item {
+  padding: 1rem 1.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+.tab-list-item:focus {
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
