@@ -5,7 +5,7 @@ interface User {
   firstName: string;
   lastName: string;
   age: number;
-  greet(): string; // 方法
+  greet(): string;
 }
 
 // 實現 Interface 的類別

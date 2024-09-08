@@ -1,4 +1,6 @@
 import { Tab } from "rizzui";
+import Question1 from "./task/question-1/index";
+import Question3 from "./task/question-3/index";
 import Count from "./task/question-5/index";
 import SearchBox from "./task/question-6/index";
 import "./App.css";
@@ -17,10 +19,14 @@ function App() {
         </Tab.List>
 
         <Tab.Panels>
-          <Tab.Panel>1</Tab.Panel>
-          <Tab.Panel>2</Tab.Panel>
-          <Tab.Panel>3</Tab.Panel>
-          <Tab.Panel>4</Tab.Panel>
+          <Tab.Panel>
+            <Question1 />
+          </Tab.Panel>
+          <Tab.Panel>詳情請看code</Tab.Panel>
+          <Tab.Panel>
+            <Question3 />
+          </Tab.Panel>
+          <Tab.Panel>詳情請看code</Tab.Panel>
           <Tab.Panel>
             <Count />
           </Tab.Panel>

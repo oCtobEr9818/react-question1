@@ -11,8 +11,12 @@ let Items = [
   4, 7, 8, 8, 0, 1, 2, 3, 1,
 ];
 
-function getUniqueNumber(items) {
-  const res = [...new Set(items)];
-  console.log("res", res);
+export default function Question3() {
+  function getUniqueNumber(items) {
+    const res = [...new Set(items)];
+    console.log("res", res);
+  }
+  getUniqueNumber(Items);
+
+  return <div>結果請看console</div>;
 }
-getUniqueNumber(Items);
